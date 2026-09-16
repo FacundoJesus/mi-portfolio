@@ -11,3 +11,7 @@ venv/
 Thumbs.db
 Desktop.ini
 .DS_Store
+
+# Agentes
+agents/
+
