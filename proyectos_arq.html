@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos de Arquitectura</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Arvo:wght@700&family=Climate+Crisis&family=Lato:ital,wght@1,300&family=Sevillana&family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+  
+  <nav class="navbar navbar-expand-lg bg-body-tertiary tamaño-estilo-fuente fixed-top" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand text-portfolio" href="#">
+          <img src="./imgs/logos/letra-f.png" alt="Logo" width="30" height="30" class="d-inline-block align-text-top">
+          Portfolio
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M5 12l-2 0l9 -9l9 9l-2 0" />
+                  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+                  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+                </svg>
+                Home
+              </a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-arch" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M3 21l18 0" />
+                  <path d="M4 21v-15a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v15" />
+                  <path d="M9 21v-8a3 3 0 0 1 6 0v8" />
+                </svg>
+                Arquitectura
+              </a>
+
+              <ul class="dropdown-menu">
+
+                <li>
+                  <a class="dropdown-item" href="diploma_arq.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-certificate" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                      <path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5" />
+                      <path d="M6 14m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                      <path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5" />
+                    </svg>
+                    Diploma
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item active aqua" href="proyectos_arq.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-building-estate" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M3 21h18" /><path d="M19 21v-4" />
+                      <path d="M19 17a2 2 0 0 0 2 -2v-2a2 2 0 1 0 -4 0v2a2 2 0 0 0 2 2z" />
+                      <path d="M14 21v-14a3 3 0 0 0 -3 -3h-4a3 3 0 0 0 -3 3v14" />
+                      <path d="M9 17v4" />
+                      <path d="M8 13h2" />
+                      <path d="M8 9h2" />
+                    </svg>
+                    Proyectos
+                  </a>
+                </li>
+                
+                <li>
+                  <a class="dropdown-item" href="certificaciones_arquitectura.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-certificate" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M15 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                      <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5" />
+                      <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73" />
+                      <path d="M6 9l12 0" />
+                      <path d="M6 12l3 0" />
+                      <path d="M6 15l2 0" />
+                    </svg>
+                    Certificaciones
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="exp_laboral_arq.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-briefcase-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M22 13.478v4.522a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-4.522l.553 .277a20.999 20.999 0 0 0 18.897 -.002l.55 -.275zm-8 -11.478a3 3 0 0 1 3 3v1h2a3 3 0 0 1 3 3v2.242l-1.447 .724a19.002 19.002 0 0 1 -16.726 .186l-.647 -.32l-1.18 -.59v-2.242a3 3 0 0 1 3 -3h2v-1a3 3 0 0 1 3 -3h4zm-2 8a1 1 0 0 0 -1 1a1 1 0 1 0 2 .01c0 -.562 -.448 -1.01 -1 -1.01zm2 -6h-4a1 1 0 0 0 -1 1v1h6v-1a1 1 0 0 0 -1 -1z" stroke-width="0" fill="currentColor" />
+                    </svg>
+                    Experiencia Laboral
+                  </a>
+                </li>
+
+                <li><hr class="dropdown-divider border-2"></li>
+                
+                <li>
+                  <a class="dropdown-item" href="cv_arq.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-cv" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                      <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                      <path d="M11 12.5a1.5 1.5 0 0 0 -3 0v3a1.5 1.5 0 0 0 3 0" />
+                      <path d="M13 11l1.5 6l1.5 -6" />
+                    </svg>
+                    Curriculum vitae
+                  </a>
+                </li>
+              </ul>
+
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-code" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                  <path d="M7 8l-4 4l4 4" /><path d="M17 8l4 4l-4 4" />
+                  <path d="M14 4l-4 16" />
+                </svg>
+                Programación
+              </a>
+
+              <ul class="dropdown-menu">
+
+                <li>
+                  <a class="dropdown-item" href="diploma_prog.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-certificate" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                      <path d="M5 8v-3a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2h-5" />
+                      <path d="M6 14m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                      <path d="M4.5 17l-1.5 5l3 -1.5l3 1.5l-1.5 -5" />
+                    </svg>
+                    Diploma
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="proyectos_prog.html" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M5.315 2.1c.791 -.113 1.9 .145 3.333 .966l.272 .161l.16 .1l.397 -.083a13.3 13.3 0 0 1 4.59 -.08l.456 .08l.396 .083l.161 -.1c1.385 -.84 2.487 -1.17 3.322 -1.148l.164 .008l.147 .017l.076 .014l.05 .011l.144 .047a1 1 0 0 1 .53 .514a5.2 5.2 0 0 1 .397 2.91l-.047 .267l-.046 .196l.123 .163c.574 .795 .93 1.728 1.03 2.707l.023 .295l.007 .272c0 3.855 -1.659 5.883 -4.644 6.68l-.245 .061l-.132 .029l.014 .161l.008 .157l.004 .365l-.002 .213l-.003 3.834a1 1 0 0 1 -.883 .993l-.117 .007h-6a1 1 0 0 1 -.993 -.883l-.007 -.117v-.734c-1.818 .26 -3.03 -.424 -4.11 -1.878l-.535 -.766c-.28 -.396 -.455 -.579 -.589 -.644l-.048 -.019a1 1 0 0 1 .564 -1.918c.642 .188 1.074 .568 1.57 1.239l.538 .769c.76 1.079 1.36 1.459 2.609 1.191l.001 -.678l-.018 -.168a5.03 5.03 0 0 1 -.021 -.824l.017 -.185l.019 -.12l-.108 -.024c-2.976 -.71 -4.703 -2.573 -4.875 -6.139l-.01 -.31l-.004 -.292a5.6 5.6 0 0 1 .908 -3.051l.152 -.222l.122 -.163l-.045 -.196a5.2 5.2 0 0 1 .145 -2.642l.1 -.282l.106 -.253a1 1 0 0 1 .529 -.514l.144 -.047l.154 -.03z" stroke-width="0" fill="currentColor" />
+                    </svg>
+                    Proyectos - Github
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="certificaciones_programacion.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-certificate" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M15 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                      <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5" />
+                      <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73" />
+                      <path d="M6 9l12 0" />
+                      <path d="M6 12l3 0" />
+                      <path d="M6 15l2 0" />
+                    </svg>
+                    Certificaciones
+                  </a>
+                </li>
+
+                <li>
+                  <a class="dropdown-item" href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-briefcase-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M22 13.478v4.522a3 3 0 0 1 -3 3h-14a3 3 0 0 1 -3 -3v-4.522l.553 .277a20.999 20.999 0 0 0 18.897 -.002l.55 -.275zm-8 -11.478a3 3 0 0 1 3 3v1h2a3 3 0 0 1 3 3v2.242l-1.447 .724a19.002 19.002 0 0 1 -16.726 .186l-.647 -.32l-1.18 -.59v-2.242a3 3 0 0 1 3 -3h2v-1a3 3 0 0 1 3 -3h4zm-2 8a1 1 0 0 0 -1 1a1 1 0 1 0 2 .01c0 -.562 -.448 -1.01 -1 -1.01zm2 -6h-4a1 1 0 0 0 -1 1v1h6v-1a1 1 0 0 0 -1 -1z" stroke-width="0" fill="currentColor" />
+                    </svg>
+                    Experiencia Laboral
+                  </a>
+                </li>
+
+                <li><hr class="dropdown-divider border-2"></li>
+                <li>
+                  <a class="dropdown-item" href="cv_programacion.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-cv" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                      <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                      <path d="M11 12.5a1.5 1.5 0 0 0 -3 0v3a1.5 1.5 0 0 0 3 0" />
+                      <path d="M13 11l1.5 6l1.5 -6" />
+                    </svg>
+                    Curriculum vitae
+                  </a>
+                </li>
+              </ul>
+            </li>
+    
+            <li class="nav-item dropdown">
+              
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="material-symbols-outlined d-inline-block align-text-top" >
+                  record_voice_over
+                </span>
+                Idiomas
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a class="dropdown-item" href="certificaciones_ingles.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-certificate" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M15 15m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                      <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5" />
+                      <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73" />
+                      <path d="M6 9l12 0" />
+                      <path d="M6 12l3 0" />
+                      <path d="M6 15l2 0" />
+                    </svg>
+                    Certificaciones
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider border-2"></li>
+                <li>
+                  <a class="dropdown-item" href="cv_ingles.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-cv" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M14 3v4a1 1 0 0 0 1 1h4" />
+                      <path d="M17 21h-10a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v11a2 2 0 0 1 -2 2z" />
+                      <path d="M11 12.5a1.5 1.5 0 0 0 -3 0v3a1.5 1.5 0 0 0 3 0" />
+                      <path d="M13 11l1.5 6l1.5 -6" />
+                    </svg>
+                    Curriculum vitae
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item-contact">
+              <a class="navbar-brand" href="contacto.html">
+                <span style="font-size: 19px;">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user-filled" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M12 2a5 5 0 1 1 -5 5l.005 -.217a5 5 0 0 1 4.995 -4.783z" stroke-width="0" fill="currentColor" />
+                    <path d="M14 14a5 5 0 0 1 5 5v1a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2v-1a5 5 0 0 1 5 -5h4z" stroke-width="0" fill="currentColor" />
+                  </svg>
+                  Contacto
+                </span>
+                <img src="./imgs/logos/foto_perfil.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-center" style="margin-left: 10px;">
+              </a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+    
+    <!-------------------------------------------------------------------------------------------->
+
+    
+    <div class="container text-center area-cards">
+      <div class="row row-cols-auto">
+
+        <div class="col mb-4 d-flex justify-content-center">
+          <div class="card card-certif-arq" style="width: 26rem;">
+            <img src="./imgs/proyectos_arq/c_inter_paisaje/portada_centro_interpretacion_del_paisaje.jpg" class="card-img-top" alt="Proyecto">
+            <div class="card-body">
+              <h5 class="card-title">Centro de Interpretación del Paisaje</h5>
+              <p class="card-text ">Propuesta proyectual de un Centro Mirador con interpretación y valorización del paisaje.</p>
+              <p class="card-text"><small class="text-muted">01/05/2018</small></p>
+              <a href="../proyectos_arq/c_inter_paisaje.html" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col mb-4 d-flex justify-content-center">
+          <div class="card card-certif-arq" style="width: 26rem;">
+            <img src="./imgs/proyectos_arq/alto_verde/portada_alto_verde.jpg" class="card-img-top" alt="Proyecto">
+            <div class="card-body">
+              <h5 class="card-title">La identidad de Alto Verde - Urbanismo</h5>
+              <p class="card-text ">Intervención y propuesta arquitectónica-urbana en el barrio de Alto Verde, Santa Fe.</p>
+              <p class="card-text"><small class="text-muted">13/11/2018</small></p>
+              <a href="../proyectos_arq/alto_verde.html" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col mb-4 d-flex justify-content-center">
+        <div class="card card-certif-arq" style="width: 26rem;">
+          <img src="./imgs/proyectos_arq/hotel_I/portada_hotel_I.jpg" class="card-img-top" alt="Proyecto">
+          <div class="card-body">
+            <h5 class="card-title">Hotel</h5>
+            <p class="card-text ">Propuesta de un Hotel de media densidad implantada en Isla Clucellas.</p>
+            <p class="card-text"><small class="text-muted">16/05/2018</small></p>
+            <a href="../proyectos_arq/hotel_I.html" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>      
+
+      <div class="col mb-4 d-flex justify-content-center">
+        <div class="card card-certif-arq" style="width: 26rem;">
+          <img src="./imgs/proyectos_arq/residencia_alta_densidad/portada_residencia_alta_densidad.jpg" class="card-img-top" alt="Proyecto">
+          <div class="card-body">
+            <h5 class="card-title">Residencia en alta densidad</h5>
+            <p class="card-text ">Propuesta arquitectónica de una torre residencial en la ciudad de Santa Fe.</p>
+            <p class="card-text"><small class="text-muted">18/11/2018</small></p>
+            <a href="../proyectos_arq/residencia_alta_densidad.html" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4 d-flex justify-content-center">
+        <div class="card card-certif-arq" style="width: 26rem;">
+          <img src="./imgs/proyectos_arq/hotel_II/portada_hotel_II.jpg" class="card-img-top" alt="Proyecto">
+          <div class="card-body">
+            <h5 class="card-title">Hotel</h5>
+            <p class="card-text ">Propuesta arquitectónica de un Hotel con tipología de basamento y torre.</p>
+            <p class="card-text"><small class="text-muted">20/05/2019</small></p>
+            <a href="../proyectos_arq/hotel_II.html" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4 d-flex justify-content-center">
+        <div class="card card-certif-arq" style="width: 26rem;">
+          <img src="./imgs/proyectos_arq/hospital/portada_hospital.jpg" class="card-img-top" alt="Proyecto">
+          <div class="card-body">
+            <h5 class="card-title">Hospital</h5>
+            <p class="card-text ">Propuesta arquitectónica de un Hospital de máxima complejidad funcional y programática.</p>
+            <p class="card-text"><small class="text-muted">16/12/2019</small></p>
+            <a href="../proyectos_arq/hospital.html" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4 d-flex justify-content-center">
+          <div class="card card-certif-arq" style="width: 26rem;">
+            <img src="./imgs/proyectos_arq/steel_framing/portada_steel_frame.jpg" class="card-img-top" alt="Proyecto">
+            <div class="card-body">
+              <h5 class="card-title">Construcción en Seco - Steel Framing</h5>
+              <p class="card-text ">Propuesta constructiva (construcción en seco) de una oficina.</p>
+              <p class="card-text"><small class="text-muted">01/05/2020</small></p>
+              <a href="../proyectos_arq/steel_frame.html" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col mb-4 d-flex justify-content-center">
+        <div class="card card-certif-arq" style="width: 26rem;">
+          <img src="./imgs/proyectos_arq/analisis_ctro_stafe/portada_analisis_ctro_stafe.jpg" class="card-img-top" alt="Proyecto">
+          <div class="card-body">
+            <h5 class="card-title">Ctro de la Ciudad de Sta Fe</h5>
+            <p class="card-text ">Estudio y análisis urbano en el centro de la ciudad de Sta Fe. con el uso de QGiS.</p>
+            <p class="card-text"><small class="text-muted">20/06/2020</small></p>
+            <a href="../proyectos_arq/ctro_stafe.html" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4 d-flex justify-content-center">
+        <div class="card card-certif-arq" style="width: 26rem;">
+          <img src="./imgs/proyectos_arq/reingenieria_vivienda/portada_reingenieria_vivienda.jpg" class="card-img-top" alt="Proyecto">
+          <div class="card-body">
+            <h5 class="card-title">Reingeniería en vivienda unifamiliar</h5>
+            <p class="card-text ">Reingeniería de una vivienda unifamiliar con documentación de un proyecto ejecutivo.</p>
+            <p class="card-text"><small class="text-muted">12/11/2021</small></p>
+            <a href="../proyectos_arq/reingenieria.html" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>
+
+        <div class="col mb-4 d-flex justify-content-center">
+            <div class="card card-certif-arq" style="width: 26rem;">
+              <img src="./imgs/proyectos_arq/analisis_b_candioti/portada_analisis_b_candioti.jpg" class="card-img-top" alt="Proyecto">
+              <div class="card-body">
+                <h5 class="card-title">Barrio Sur Candioti</h5>
+                <p class="card-text ">Estudio y análisis arquitectónico-urbano en Barrio Candioti Sur con el uso de la herramienta QGiS.</p>
+                <p class="card-text"><small class="text-muted">10/08/2022</small></p>
+                <a href="../proyectos_arq/b_candioti.html" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="col mb-4 d-flex justify-content-center">
+            <div class="card card-certif-arq" style="width: 26rem;">
+              <img src="./imgs/proyectos_arq/super_manzana/portada_super_manzana.jpg" class="card-img-top" alt="Proyecto">
+              <div class="card-body">
+                <h5 class="card-title">Propuesta arquitectónica-urbana - Tesis </h5>
+                <p class="card-text ">A través de un profundo análisis del sector de estudio, se estableció una propuesta proyectual.</p>
+                <p class="card-text"><small class="text-muted">29/07/2022</small></p>
+                <a href="../proyectos_arq/super_manzana.html" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+              </div>
+            </div>
+        </div>
+
+        <div class="col mb-4 d-flex justify-content-center">
+          <div class="card card-certif-arq" style="width: 26rem;">
+            <img src="./imgs/proyectos_arq/duplex/Duplex_portada.jpg" class="card-img-top" alt="Proyecto">
+            <div class="card-body">
+              <h5 class="card-title">Aplicación del Modelado BIM en un Proyecto real</h5>
+              <p class="card-text ">Modelado BIM de viviendas multifamiliares existentes</p>
+              <p class="card-text"><small class="text-muted">28/02/2024</small></p>
+              <a href="https://autode.sk/3Ihq88j" target="_blank" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+            </div>
+          </div>
+        </div>
+
+      <div class="col mb-4 d-flex justify-content-center">
+        <div class="card card-certif-arq" style="width: 26rem;">
+          <img src="./imgs/proyectos_arq/vivienda_dom_revit/portada_vivienda_dom_revit.jpg" class="card-img-top" alt="Proyecto">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text ">Diseño y modelado arquitectónico de una vivienda con Revit</p>
+            <p class="card-text"><small class="text-muted">04/03/2024</small></p>
+            <a href="https://autode.sk/3GiWsat" target="_blank" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4 d-flex justify-content-center">
+        <div class="card card-certif-arq" style="width: 26rem;">
+          <img src="./imgs/proyectos_arq/edificio_dom_revit/portada_imagen_edificio_revit.jpg" class="card-img-top" alt="Proyecto">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text ">Diseño y modelado arquitectónico de edificio paramétrico con Revit</p>
+            <p class="card-text"><small class="text-muted">15/03/2024</small></p>
+            <a href="https://autode.sk/3Id4t1g" target="_blank" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col mb-4 d-flex justify-content-center">
+        <div class="card card-certif-arq" style="width: 26rem;">
+          <img src="./imgs/proyectos_arq/vivienda_carmona_dmk/portada_vivienda_dmk.jpg" class="card-img-top" alt="Proyecto">
+          <div class="card-body">
+            <h5 class="card-title"></h5>
+            <p class="card-text ">Diseño y modelado arquitectónico de edificio paramétrico con Revit</p>
+            <p class="card-text"><small class="text-muted">22/04/2024</small></p>
+            <a href="https://autode.sk/407Pfki" target="_blank" class="btn btn-aqua" tabindex="-1" role="button" aria-disabled="true">Ver Proyecto</a>
+          </div>
+        </div>
+      </div>
+
+
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
