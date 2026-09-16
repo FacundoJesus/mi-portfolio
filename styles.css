@@ -14,19 +14,24 @@ body {
 /* Barra de navegacion */
 .navbar {
     padding: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Agrega sombra con valores de sombra personalizables */
-  }
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    /* Agrega sombra con valores de sombra personalizables */
+}
+
 .nav-item a:hover {
-    background-color:aqua;
-    color:white;
+    background-color: aqua;
+    color: white;
     transition: all 1s ease;
 }
+
 a.dropdown-item.active.verde {
     background-color: aqua;
 }
+
 a.dropdown-item.active.rojo {
     background-color: aqua;
 }
+
 a.dropdown-item.active.aqua {
     background-color: aqua;
 }
@@ -34,6 +39,7 @@ a.dropdown-item.active.aqua {
 .dropdown-menu {
     --bs-dropdown-link-active-bg: false;
 }
+
 .text-portfolio {
     font-family: 'Arvo', serif;
 }
@@ -44,6 +50,7 @@ a.dropdown-item.active.aqua {
     justify-content: space-between;
     display: flexbox;
 }
+
 .row-cols-auto {
     display: flexbox;
     justify-content: center;
@@ -54,38 +61,46 @@ a.dropdown-item.active.aqua {
     background-color: #FD8584;
     color: white;
 }
+
 .btn-rojo-fluor:hover {
     background-color: rgba(253, 133, 132, 0.5);
     color: white;
 }
+
 .card-certif-ingles {
     border: 2px solid #FD8584;
 }
 
 /* Certificaciones Programacion */
 .btn-verde-fluor {
-    background-color: #A7CA7E;
+    background-color: #10B981;
     color: white;
+    transition: background-color 0.3s ease;
 }
+
 .btn-verde-fluor:hover {
-    background-color: rgba(167, 202, 126, 0.5);
+    background-color: #059669;
     color: white;
 }
+
 .card-certif-prog {
-    border: 2px solid #A7CA7E;
+    border: 2px solid #10B981;
 }
 
 /* Certificaciones Arquitectura */
 .btn-aqua {
-    background-color: #92AEC0;
-    color:white;
+    background-color: #06B6D4;
+    color: white;
+    transition: background-color 0.3s ease;
 }
+
 .btn-aqua:hover {
-    background-color: rgba(146, 174, 192, 0.5);
+    background-color: #0891B2;
     color: white;
 }
+
 .card-certif-arq {
-    border: 2px solid #92AEC0;
+    border: 2px solid #06B6D4;
 }
 
 
@@ -95,36 +110,42 @@ a.dropdown-item.active.aqua {
 .area-contacto {
     justify-content: space-between;
     display: flexbox;
-    
+
     /* width: 100vw; */
-    
+
     height: 100vh;
 }
+
 .row-cols-auto {
     margin-top: 90px;
     justify-content: center;
 }
+
 .contacto {
-    margin:70px;
+    margin: 70px;
 }
+
 .contacto img:hover {
     transform: translateY(-20px);
     transition: transform 0.8s ease-in-out;
-    
+
 }
+
 .epigrafe-contacto {
     font-size: 20px;
     color: white;
     margin-top: 15px;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 hr.hr-sup-contacto {
-    color:aqua;
+    color: aqua;
     opacity: 1;
     margin-top: 200px;
 }
+
 hr.hr-inf-contacto {
-    color:aqua;
+    color: aqua;
     opacity: 1;
     margin-top: 100px;
 
@@ -134,45 +155,50 @@ hr.hr-inf-contacto {
 /* CV Arq */
 .hr-cv-sup-arq {
     opacity: 1;
-    color:#92AEC0;
+    color: #06B6D4;
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 80px;
 }
+
 .hr-cv-inf-arq {
     opacity: 1;
-    color:#92AEC0;
+    color: #06B6D4;
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 40px;
-    
+
 }
+
 /* CV Prog */
 .hr-cv-sup-prog {
     opacity: 1;
-    color:#A7CA7E;
+    color: #10B981;
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 80px;
 }
+
 .hr-cv-inf-prog {
     opacity: 1;
-    color:#A7CA7E;
+    color: #10B981;
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 40px;
 }
+
 /* CV Ingles */
 .hr-cv-sup-ingles {
     opacity: 1;
-    color:#FD8584;
+    color: #FD8584;
     margin-left: 300px;
     margin-right: 300px;
     margin-top: 80px;
 }
+
 .hr-cv-inf-ingles {
     opacity: 1;
-    color:#FD8584;
+    color: #FD8584;
     margin-left: 300px;
     margin-right: 300px;
     margin-bottom: 40px;
@@ -182,7 +208,7 @@ hr.hr-inf-contacto {
 /* Seccion Diplomas 
 /*Arquitecto */
 .texto-dip-arq {
-    color:#92AEC0;
+    color: #06B6D4;
     font-family: 'Sevillana', cursive;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -190,53 +216,59 @@ hr.hr-inf-contacto {
 }
 
 .hr-sup-dip-arq {
-    color:#92AEC0;
+    color: #06B6D4;
     opacity: 1;
     margin-left: 190px;
     margin-right: 190px;
     margin-top: 25px;
 }
+
 .hr-medio-dip-arq {
-    color:#92AEC0;
+    color: #06B6D4;
     opacity: 1;
     margin-left: 190px;
     margin-right: 190px;
     margin-top: 10px;
     margin-bottom: 40px;
 }
+
 .hr-inf-dip-arq {
-    color:#92AEC0;
+    color: #06B6D4;
     opacity: 1;
     margin-left: 190px;
     margin-right: 190px;
     margin-top: 25px;
     margin-bottom: 30px;
 }
+
 /*Programacion */
 .texto-dip-prog {
-    color:#A7CA7E;
+    color: #10B981;
     font-family: 'Sevillana', cursive;
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 40px;
 }
+
 .hr-sup-dip-prog {
-    color:#A7CA7E;
+    color: #10B981;
     opacity: 1;
     margin-left: 190px;
     margin-right: 190px;
     margin-top: 25px;
 }
+
 .hr-medio-dip-prog {
-    color:#A7CA7E;
+    color: #10B981;
     opacity: 1;
     margin-left: 190px;
     margin-right: 190px;
     margin-top: 10px;
     margin-bottom: 40px;
 }
+
 .hr-inf-dip-prog {
-    color:#A7CA7E;
+    color: #10B981;
     opacity: 1;
     margin-left: 190px;
     margin-right: 190px;
@@ -247,26 +279,29 @@ hr.hr-inf-contacto {
 /* Exp. Laboral - Arquitectura */
 
 .text-exp-lab-arq {
-    color:#92AEC0;
+    color: #06B6D4;
     margin-top: 10px;
 }
+
 .hr-exp-lab-arq {
-    color:#92AEC0;
+    color: #06B6D4;
     margin-bottom: 25px;
-    opacity: 1; 
+    opacity: 1;
 }
 
 
 /* Proyectos Arquitectura */
 .hr-proyecto {
-    color:#92AEC0;
-    opacity:1;
+    color: #06B6D4;
+    opacity: 1;
 }
+
 .p-proyecto {
-    color:white;
+    color: white;
 }
+
 .titulos-proyecto {
-    color:#92AEC0;
+    color: #06B6D4;
 }
 
 /*Para que floten las cartas (proyectos y certificaciones)*/
@@ -282,11 +317,11 @@ hr.hr-inf-contacto {
 /* Estilos personalizados aquí */
 .presentacion {
     background-color: #2B3035;
-    display:flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 65px;
-    height:100vh;
+    height: 100vh;
 
 }
 
@@ -296,80 +331,94 @@ hr.hr-inf-contacto {
     font-size: 3em;
     color: white;
 }
+
 .presentacion p {
     margin-top: 20px;
-    color:white;
+    color: white;
 }
+
 .presentacion span {
     color: aqua;
 }
 
 /* Clases de animación */
 @keyframes fadeIn {
-from {
-    opacity: 0;
-    transform: translateY(20px);
-}
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
 
-to {
-    opacity: 1;
-    transform: translateY(0);
-}
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .animate__animated {
-animation-duration: 1s;
-animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-fill-mode: both;
 }
 
 .animate__fadeIn {
-animation-name: fadeIn;
+    animation-name: fadeIn;
 }
 
 #typing-container {
     position: relative;
-    width: 100%; /* Asegura que se adapte a la pantalla */
+    width: 100%;
+    /* Asegura que se adapte a la pantalla */
     overflow: hidden;
-  }
+}
 
 #typing-paragraph {
-    white-space: pre-wrap; /* Respeta los saltos de línea */
-    word-wrap: break-word; /* Ajusta palabras largas */
-    font-size: 1rem; /* Tamaño de fuente relativo */
-    line-height: 1.5; /* Espaciado entre líneas ajustable */
-  }
+    white-space: pre-wrap;
+    /* Respeta los saltos de línea */
+    word-wrap: break-word;
+    /* Ajusta palabras largas */
+    font-size: 1rem;
+    /* Tamaño de fuente relativo */
+    line-height: 1.5;
+    /* Espaciado entre líneas ajustable */
+}
 
 .cursor {
-position: absolute;
-overflow: hidden;
-white-space: initial;
-border-right: 2px solid #00FFFF; /* Simula el cursor de escritura */
-margin-left: 0px; /* Espacio entre el texto y el cursor */
-margin-top: 20px;
-animation: blink 0.8s infinite; /* Animación de parpadeo del cursor */
+    position: absolute;
+    overflow: hidden;
+    white-space: initial;
+    border-right: 2px solid #00FFFF;
+    /* Simula el cursor de escritura */
+    margin-left: 0px;
+    /* Espacio entre el texto y el cursor */
+    margin-top: 20px;
+    animation: blink 0.8s infinite;
+    /* Animación de parpadeo del cursor */
 }
 
 
 @keyframes blink {
-0%, 100% {
-    opacity: 1;
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
 }
 
-50% {
-    opacity: 0;
-}
-}
 .newline {
     display: block;
 }
 
 .col-presentacion {
-    margin-top:40px;
+    margin-top: 40px;
 }
 
 .div-download-cv {
     margin-bottom: 50px;
 }
+
 .download-cv {
     color: black;
     padding: 10px 20px;
@@ -377,26 +426,28 @@ animation: blink 0.8s infinite; /* Animación de parpadeo del cursor */
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    -webkit-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
-    -moz-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
-    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    -webkit-box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
+    -moz-box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
 }
+
 .download-cv:hover {
     background-color: azure;
     box-shadow: none;
     transition: all 0.7s ease;
 }
+
 .img-facu {
-    border:  4px solid aqua;
+    border: 4px solid aqua;
     width: 34 rem;
     height: 34 rem;
     margin-bottom: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100vw;
+    width: 100vw;
 }
- 
+
 
 
 /*Sobre mi...*/
@@ -405,28 +456,32 @@ animation: blink 0.8s infinite; /* Animación de parpadeo del cursor */
     /* width: 100vw; */
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .sobre-mi img {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100vw;
+    width: 100vw;
 }
+
 .contenido-sobre-mi {
     margin-top: 20px;
     margin-bottom: 20px;
     margin-right: 0px;
     margin-left: 10px;
 }
+
 .sobre-mi h1 {
     display: grid;
-    align-items:start;
-    justify-content:first baseline;
+    align-items: start;
+    justify-content: first baseline;
     font-size: 2em;
     color: white;
-    
+
 }
+
 .divider {
     height: 4px;
     width: 60px;
@@ -434,11 +489,13 @@ animation: blink 0.8s infinite; /* Animación de parpadeo del cursor */
     margin-top: 5px;
     margin-bottom: 2em;
 }
+
 .sobre-mi p {
     margin-bottom: 1em;
     color: white;
 }
-.read-more {    
+
+.read-more {
     color: black;
     padding: 10px 20px;
     background-color: aqua;
@@ -446,10 +503,11 @@ animation: blink 0.8s infinite; /* Animación de parpadeo del cursor */
     border-radius: 20px;
     margin-top: 20px;
     cursor: pointer;
-    -webkit-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
-    -moz-box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
-    box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
+    -webkit-box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
+    -moz-box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
+    box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, 0.69);
 }
+
 .read-more:hover {
     background-color: azure;
     box-shadow: none;
@@ -466,8 +524,8 @@ animation: blink 0.8s infinite; /* Animación de parpadeo del cursor */
     color: #fff;
     justify-content: center;
     align-items: center;
-    
-    
+
+
 }
 
 .contact-section img {
@@ -476,20 +534,22 @@ animation: blink 0.8s infinite; /* Animación de parpadeo del cursor */
     bottom: 30px;
     margin-right: 5em;
     opacity: 0.5;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
-    width:100vw;
+    width: 100vw;
 }
+
 .form-group {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 30vw;
     margin-top: 2em;
-    margin-left:40px;
+    margin-left: 40px;
 }
+
 .form-group textarea {
     height: 150px;
     padding: 1.5em;
@@ -497,7 +557,7 @@ animation: blink 0.8s infinite; /* Animación de parpadeo del cursor */
     border: 1px solid #fff;
     color: #fff;
 }
-  
+
 .form-group .input {
     padding: 10px 20px;
     margin-bottom: 1em;
@@ -505,13 +565,13 @@ animation: blink 0.8s infinite; /* Animación de parpadeo del cursor */
     border: none;
     border-bottom: 1px solid #fff;
     color: #fff;
-    
+
     justify-content: center;
     align-items: center;
     display: flex;
-    
+
 }
-  
+
 .btn-submit {
     color: black;
     padding: 10px 20px;
@@ -523,23 +583,26 @@ animation: blink 0.8s infinite; /* Animación de parpadeo del cursor */
     justify-content: center;
     align-items: center;
 }
+
 .btn-submit:hover {
     transition: all 0.7s ease;
     background-color: azure;
 }
+
 .button-content {
     display: flex;
     justify-content: center;
     margin: 1em;
 }
+
 .contact-form {
     justify-content: center;
     align-items: center;
-    display:grid;
-    
+    display: grid;
+
 }
- 
-  
+
+
 
 /*Footer*/
 .footer {
@@ -552,31 +615,28 @@ animation: blink 0.8s infinite; /* Animación de parpadeo del cursor */
     background-color: aqua;
     margin: 0;
     padding: 0;
-    
+
 }
-  
+
 .footer-content h2 {
     font-size: 2.5em;
 
 }
-  
+
 .footer-content h5 {
     font-size: 1.5em;
     text-align: center;
     justify-content: center;
 }
-  
+
 .sotial-networks {
     display: flex;
     justify-content: space-evenly;
     width: 300px;
-    
+
 }
 
 .sotial-networks i {
     font-size: 1.5em;
     color: black;
 }
-  
-
-  
