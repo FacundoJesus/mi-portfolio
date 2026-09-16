@@ -13,7 +13,7 @@ Desktop.ini
 .DS_Store
 
 # Agentes
-agents/
+.agents/*
 
 # Script de optimización de imágenes
 optimizar_imagenes.py
